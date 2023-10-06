@@ -1,46 +1,51 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishav Walde</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Rishav Walde Logo" id="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website Homepage HTML and CSS | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">CodingNepal</a></h2>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="#" class="signin">Sign In</a>
+          <a href="#" class="signup">Sign Up</a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#github"><img src="github.png" alt="GitHub"></a></li>
-                <li><a href="#linkedin"><img src="linkedin.png" alt="LinkedIn"></a></li>
-                <li><a href="mailto:your_email@example.com"><img src="gmail.png" alt="Gmail"></a></li>
-                <li><a href="#leetcode"><img src="leetcode.png" alt="LeetCode"></a></li>
-                <li><a href="#geekforgeeks"><img src="geekforgeeks.png" alt="GeekforGeeks"></a></li>
-                <li><a href="#hackerrank"><img src="hackerrank.png" alt="HackerRank"></a></li>
-            </ul>
-        </nav>
+      </nav>
     </header>
-
-    <main>
-        <div class="universe"></div>
-        <section class="details">
-            <h1>About Me</h1>
-            <p>Add your details about Rishav Walde here.</p>
-        </section>
-        <aside class="sidebar">
-            <h2>Project Experience</h2>
-            <p>Add your project experience details here.</p>
-            <h2>Contact</h2>
-            <p>Add your contact details here.</p>
-        </aside>
-    </main>
-
-    <footer>
-        <!-- Your footer content here -->
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+    <section class="hero-section">
+      <div class="hero">
+        <h2>Mobile App Development</h2>
+        <p>
+          Join us in the exciting world of programming and turn your ideas into
+          reality. Unlock the world of endless possibilities - learn to code and
+          shape the digital future with us.
+        </p>
+        <div class="buttons">
+          <a href="#" class="join">Join Now</a>
+          <a href="#" class="learn">Learn More</a>
+        </div>
+      </div>
+      <div class="img">
+        <img src="https://www.codingnepalweb.com/demos/create-responsive-website-html-css/hero-bg.png" alt="hero image" />
+      </div>
+    </section>
+  </body>
 </html>
